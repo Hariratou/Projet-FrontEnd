@@ -1,0 +1,22 @@
+body {
+    background: #f4eeee;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+    font-style: oblique;
+}
+
+.para {
+    font-style: italic;
+}
+
+.btn {
+    padding: 15px 20px;
+    background-color: rgb(68, 68, 225);
+    color: white;
+}

@@ -1,0 +1,6 @@
+var haris = ["Lhomme porte son destin attaché à son cou.", "La sanction d'une mauvaise action est une mauvaise action.", "L'ennemi intelligent est préférable à un ami imbécile.", "La bonté ferme la bouche aux mauvaises langues.", "Qui ne sait pas ne doit pas avoir honte d'apprendre.", "Ne sois pas l'esclave de tes désirs.", "Prévoir rend le pas assuré.", "Qui sait garder son secret connaît le chemin du succès.", "Le contentement est une valeur qui ne s'use jamais.", "Richesse et avarice sont les racines du mal.", "Si la vérité est amère, ses fruits sont doux.","Qui combat la vérité sera vaincu.", "La vérité est le meilleur argument.", "Le repentir efface le péché.", " La douleur persiste pour qui n'a pas d'espoir.", "On répond au fou par le silence.", "Ne crains personne sauf tes péchés.", " La connaissance égaye l'âme.", "Mieux vaut mourir que supplier. ", "Combattre ses désirs est le plus grand des combats."
+]
+function newHarira(){
+    randomNumber=Math.floor(Math.random()*(20));
+    document.getElementById('hariraDisplay').innerHTML=haris[randomNumber];
+}

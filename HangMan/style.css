@@ -1,0 +1,98 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body { 
+     background: #c1c1c1;
+     background: -webkit-linear-gradient(#c1c1c1, white, #c1c1c1);
+     background: -o-linear-gradient(#c1c1c1, white, #c1c1c1);
+     background: -moz-linear-gradient(#c1c1c1, white, #c1c1c1);
+     background: linear-gradient(#c1c1c1, white, #c1c1c1);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+#introPage, #singlePage, #multipage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#introPage {
+    display: block;
+    height: 650px;
+    width: 850px;
+}
+
+#introText {
+    width: 850px;
+    height: 260px;
+    margin: auto;
+}
+
+#introText p, #multiText p{
+     font-size: 40px;
+     text-align: center;
+     margin: 0 auto 20px auto;
+}
+
+#buttoncontainer {
+    width: 700px;
+    height: 75px;
+    margin: 50px auto;
+}
+
+#sp, #mp, #sp1, #mp1 {
+    font-size: 35px;
+    width: 250px;
+    height: 75px;
+    float: right;
+    line-height: 75px;
+    text-align: center;
+    color: white;
+    background-color: #00006c;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#sp {
+    float: left; 
+}
+
+#sp1 {
+    margin: 69px 20px 0 0;
+}
+
+#mp1 {
+    margin: 50px 20px 0 0;
+}
+
+#homeHangman, #hangman {
+    display: block;
+    margin: 50px auto 0 auto;
+    border: 1px solid black;
+}
+
+#singlePage {
+    display: none;
+    height: 560px;
+    
+}

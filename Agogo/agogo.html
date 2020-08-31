@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+    <title>agogo</title>
+    <link rel="stylesheet" href="agogo.css">
+</head>
+<body>
+    <header>
+        <h1>Countdown Time</h1>
+    </header>
+  <div class="timer">
+         <div class="buttons">
+             <button data-time="20" class="btn start">10 secs</button>
+             <button data-time="300" class="btn start">Travaille 5</button>
+             <button data-time="900" class="btn start"> Pause 15</button>
+             <button data-time="1200" class="btn start">Reprise 20</button>
+             <button data-time="3600" class="btn start">Descente</button>
+         </div>
+
+         <form name="customForm" id="custom">
+            <input type="text" name="minutes" placeholder="Tapez Ici" id="minute">
+         </form>
+    
+         <div class="display">
+             <h1 class="display__time-left"></h1>
+             <p class="display__end-time"></p>
+         </div>
+    </div>
+
+
+
+    <script src="agogo.js"></script>
+</body>
+</html>
